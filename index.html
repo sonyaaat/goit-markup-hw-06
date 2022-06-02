@@ -83,11 +83,47 @@
       <!-- MODAL -->
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <button class="backdrop-button" data-modal-close type="button">
+          <button
+            class="backdrop-button"
+            type="button"
+            data-modal-close
+            type="button"
+          >
             <svg class="cross-svg">
               <use href="./images/sprite.svg#cross"></use>
             </svg>
           </button>
+
+         <form action="" class="form">
+           <b class="form-header">Оставьте свои данные, мы вам перезвоним</b>
+           <div class="form-field">
+             <label for="name" class="modal-label">Имя</label>
+             <input type="text" id="name" class="modal-input">
+           </div>
+
+           <div class="form-field">
+             <label for="tel" class="modal-label">Телефон</label>
+             <input type="tel" id="tel" class="modal-input">
+           </div>
+
+           <div class="form-field">
+             <label for="email" class="modal-label">Почта</label>
+             <input type="email" id="email" class="modal-input">
+           </div>
+
+           <div class="form-field">
+             <label for="comments" class="area-comments">Комментарий</label>
+             <textarea name="comments" class="comments-input" id="comments" placeholder="Введите текст"></textarea>
+           </div>
+
+          <div class="form-field policy">
+             <input type="checkbox" name="policy" id="policy" class="policy-checkbox">
+           <label for="policy" class="policy-label">Соглашаюсь с рассылкой и принимаю <span class="policy-label-accent">Условия договора</span></label>
+          </div>
+          <button type="submit" class="modal-button">Отправить</button>
+         </form>
+
+         </div>
         </div>
       </div>
       <!--Текстові блоки -->
