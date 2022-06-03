@@ -98,17 +98,32 @@
            <b class="form-header">Оставьте свои данные, мы вам перезвоним</b>
            <div class="form-field">
              <label for="name" class="modal-label">Имя</label>
-             <input type="text" id="name" class="modal-input">
+             <input name="name" type="text" id="name" class="modal-input">
+             <svg class="modal-icon modal-icon-3">
+               <use href="./images/sprite.svg#form-3">
+
+               </use>
+             </svg>
            </div>
 
            <div class="form-field">
              <label for="tel" class="modal-label">Телефон</label>
-             <input type="tel" id="tel" class="modal-input">
+             <input name="tel" type="tel" id="tel" class="modal-input">
+             <svg class="modal-icon modal-icon-1">
+               <use href="./images/sprite.svg#form-1">
+
+               </use>
+             </svg>
            </div>
 
            <div class="form-field">
              <label for="email" class="modal-label">Почта</label>
-             <input type="email" id="email" class="modal-input">
+             <input name="email" type="email" id="email" class="modal-input">
+             <svg class="modal-icon modal-icon-2">
+               <use href="./images/sprite.svg#form-2">
+
+               </use>
+             </svg>
            </div>
 
            <div class="form-field">
@@ -117,8 +132,12 @@
            </div>
 
           <div class="form-field policy">
-             <input type="checkbox" name="policy" id="policy" class="policy-checkbox">
-           <label for="policy" class="policy-label">Соглашаюсь с рассылкой и принимаю <a href="" class="policy-label-accent">Условия договора</a></label>
+            <label for="policy" class="policy-label">
+               <input type="checkbox" name="policy" id="policy" class="policy-checkbox">
+             <span class="policy-icon"></span>
+              Соглашаюсь с рассылкой и принимаю <a href="" class="policy-label-accent">Условия договора</a></label>
+            
+           
           </div>
           <button type="submit" class="modal-button">Отправить</button>
          </form>
@@ -520,7 +539,7 @@
               <button type="submit" class="footer-button">
                 Подписаться
                 <svg class="footer-button-img">
-                  <use href="./images/sprite.svg#send"></use>
+                  <use class="footer-button-img" href="./images/sprite.svg#send"></use>
                 </svg>
               </button>
             </div>
