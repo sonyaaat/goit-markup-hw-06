@@ -836,12 +836,11 @@ footer {
   display: flex;
 }
 .footer-button {
-  position: relative;
-  /* display: block;
-  align-items: baseline;
-  justify-content: center; */
-  text-align: justify;
-  padding-left: 29px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 200px;
   height: 50px;
   background-color: var(--accent-text);
@@ -857,10 +856,8 @@ footer {
   color: #ffffff;
 }
 .footer-button-img {
-  position: absolute;
   margin-left: 10px;
-  top: 13px;
-  right: 28px;
+
   width: 24px;
   height: 24px;
 }
