@@ -109,6 +109,9 @@ header {
   display: flex;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.info-mail {
+  align-items: center;
+}
 .header-contacts-link {
   display: flex;
   align-items: center;
@@ -389,6 +392,7 @@ header {
   top: 50%;
   transform: translateY(50%);
   left: 12px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-icon-1 {
   width: 13px;
@@ -880,6 +884,7 @@ footer {
   padding: 16px;
   border-radius: 4px;
   margin-right: 12px;
+  color: white;
 }
 .footer-input::placeholder {
   font-style: normal;
